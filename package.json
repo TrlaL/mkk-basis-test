@@ -1,0 +1,32 @@
+{
+  "name": "fintech-todo",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "nuxi typecheck"
+  },
+  "dependencies": {
+    "@fontsource-variable/onest": "^5.3.1",
+    "@pinia/nuxt": "^1.0.3",
+    "nuxt": "^4.6.3",
+    "pinia": "^4.1.0",
+    "vue": "^3.5.44",
+    "vue-router": "^5.4.0"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^4.3.4",
+    "@vue/test-utils": "^2.5.1",
+    "happy-dom": "^21.0.4",
+    "sass-embedded": "^1.107.1",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.5",
+    "vue-tsc": "^3.3.14"
+  }
+}
